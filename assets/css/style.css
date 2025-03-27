@@ -1,0 +1,239 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Playfair Display", Courier, monospace;
+  background-color: white;
+}
+h2 {
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 80px;
+}
+#fg,
+h2:hover {
+  color: rgb(44, 234, 222);
+}
+#fg {
+  text-decoration: none;
+}
+svg {
+  width: 30px;
+}
+.logos {
+  display: flex;
+  gap: 20px;
+}
+.barra1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px 40px;
+}
+nav {
+  display: flex;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 15px;
+  font-weight: 600;
+}
+nav a:hover {
+  color: rgb(44, 234, 222);
+  text-decoration: overline;
+}
+
+/* ---------------NAVBAR--------------- */
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.info {
+  width: 500px;
+  height: 430px;
+}
+h1 {
+  color: white;
+  font-size: 90px;
+  margin-bottom: 5px;
+}
+.info p {
+  color: white;
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+header section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(28, 28, 28);
+  height: 60vh;
+  width: 100%;
+}
+.button {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid white;
+}
+.button:hover {
+  background-color: rgb(44, 234, 222);
+  color: black;
+  font-size: 18px;
+  box-shadow: 0 12px 16px 0 rgb(44, 234, 222),
+    0 17px 50px 0 rgba(253, 253, 253, 0.815);
+}
+img {
+  width: 300px;
+  border-radius: 3%;
+  border: 5px solid white;
+  background-repeat: no-repeat;
+}
+
+/* ---------------INTRO--------------- */
+
+.habilidades {
+  background-color: rgb(28, 28, 28);
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 29vh;
+}
+.habilidades h3 {
+  font-size: 50px;
+  margin-bottom: 25px;
+}
+.habilidades p {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.habilidades div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  gap: 20px;
+}
+.habilidades svg {
+  height: 40px;
+  width: 40px;
+}
+
+/* --------------- HABILIDADES --------------- */
+
+.sobremi {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 5rem 15rem;
+}
+.sobremi h3 {
+  font-size: 50px;
+  margin-bottom: 35px;
+}
+.sobremi p {
+  padding-inline: 3rem;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* --------------- ACERCA DE MI --------------- */
+
+.educacion {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  height: 20vh;
+  gap: 8rem;
+}
+.educacion h3 {
+  font-size: 40px;
+  text-align: end;
+  width: 329px;
+}
+.educacion div {
+  width: 329px;
+}
+.educacion h4 {
+  font-size: 22px;
+}
+.educacion p {
+  font-size: 20px;
+}
+
+/* --------------- ESTUDIOS --------------- */
+
+.experiencia {
+  background-color: rgb(28, 28, 28);
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  height: 20vh;
+}
+.experiencia h3 {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+.experiencia p {
+  padding-inline: 20rem;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* --------------- EXPERIENCE --------------- */
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 7vh;
+}
+footer p {
+  text-transform: uppercase;
+}
